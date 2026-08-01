@@ -1,0 +1,17 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+data=pd.read_csv("post_likes.csv")
+freq=data["Likes"].value_counts().sort_index()
+print(freq)
+plt.figure(figsize=(6,4))
+plt.bar(freq.index.astype(str),freq.values)
+plt.title("Likes Frequency Distribution")
+plt.xlabel("Likes")
+plt.ylabel("Frequency")
+plt.show()
+plt.figure(figsize=(6,4))
+plt.hist(data["Likes"],bins=5)
+plt.title("Likes Distribution")
+plt.xlabel("Likes")
+plt.ylabel("Frequency")
+plt.show()

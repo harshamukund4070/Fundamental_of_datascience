@@ -1,0 +1,23 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+data=pd.read_csv("stock_data.csv")
+mean=np.mean(data["ClosePrice"])
+std=np.std(data["ClosePrice"])
+variance=np.var(data["ClosePrice"])
+print(mean)
+print(std)
+print(variance)
+plt.figure(figsize=(6,4))
+plt.plot(data["Day"],data["ClosePrice"],marker="o")
+plt.title("Stock Closing Prices")
+plt.xlabel("Day")
+plt.ylabel("Price")
+plt.grid(True)
+plt.show()
+plt.figure(figsize=(6,4))
+plt.hist(data["ClosePrice"],bins=5)
+plt.title("Stock Price Distribution")
+plt.xlabel("Price")
+plt.ylabel("Frequency")
+plt.show()

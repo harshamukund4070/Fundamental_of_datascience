@@ -1,0 +1,16 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+data=pd.read_csv("monthly_company_sales.csv")
+plt.figure(figsize=(6,4))
+plt.plot(data["Month"],data["Sales"],marker="o")
+plt.title("Monthly Sales")
+plt.xlabel("Month")
+plt.ylabel("Sales")
+plt.grid(True)
+plt.show()
+plt.figure(figsize=(6,4))
+plt.bar(data["Month"],data["Sales"])
+plt.title("Monthly Sales")
+plt.xlabel("Month")
+plt.ylabel("Sales")
+plt.show()

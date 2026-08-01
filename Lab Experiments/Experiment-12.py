@@ -1,0 +1,17 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+data=pd.read_csv("weather_data.csv")
+plt.figure(figsize=(7,4))
+plt.plot(data["Month"],data["Temperature"],marker="o")
+plt.title("Monthly Temperature")
+plt.xlabel("Month")
+plt.ylabel("Temperature")
+plt.grid(True)
+plt.show()
+plt.figure(figsize=(7,4))
+plt.scatter(data["Month"],data["Rainfall"])
+plt.title("Monthly Rainfall")
+plt.xlabel("Month")
+plt.ylabel("Rainfall")
+plt.grid(True)
+plt.show()
