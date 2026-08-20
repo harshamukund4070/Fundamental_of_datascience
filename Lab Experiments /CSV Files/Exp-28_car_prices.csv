@@ -1,0 +1,16 @@
+mileage,age,brand,engine_type,price
+15000,2,Toyota,Petrol,18000
+25000,3,Toyota,Diesel,16500
+40000,5,Toyota,Petrol,13000
+20000,2,Honda,Petrol,17500
+35000,4,Honda,Diesel,15000
+50000,6,Honda,Petrol,11500
+18000,2,Hyundai,Petrol,16000
+30000,3,Hyundai,Diesel,14500
+45000,5,Hyundai,Petrol,12000
+22000,2,Ford,Petrol,15500
+38000,4,Ford,Diesel,13500
+55000,7,Ford,Petrol,10000
+12000,1,Toyota,Electric,22000
+28000,3,Honda,Electric,20000
+32000,4,Hyundai,Electric,18500

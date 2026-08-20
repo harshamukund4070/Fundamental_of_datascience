@@ -1,0 +1,16 @@
+name,age,position,goals,weekly_salary
+Player_A,22,Forward,18,45000
+Player_B,25,Midfielder,12,38000
+Player_C,29,Forward,24,62000
+Player_D,31,Defender,5,42000
+Player_E,27,Midfielder,15,50000
+Player_F,34,Defender,3,47000
+Player_G,23,Forward,21,58000
+Player_H,30,Goalkeeper,1,55000
+Player_I,28,Midfielder,14,52000
+Player_J,26,Forward,16,48000
+Player_K,32,Defender,4,51000
+Player_L,21,Midfielder,10,35000
+Player_M,36,Goalkeeper,0,60000
+Player_N,24,Forward,19,53000
+Player_O,33,Defender,6,49000
